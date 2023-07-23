@@ -7,7 +7,7 @@ from .models import Sensor, Measurement
 from .serializers import SensorSerializer, SensorDetailSerializer, MeasurementSerializer
 
 
-class SensorsViewSet(ModelViewSet):
+class SensorViewSet(ModelViewSet):
     queryset = Sensor.objects.all()
     serializer_class = SensorSerializer
 

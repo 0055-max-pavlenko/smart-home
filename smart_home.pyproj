@@ -36,6 +36,9 @@
     <Compile Include="measurement\admin.py" />
     <Compile Include="measurement\apps.py" />
     <Compile Include="measurement\migrations\0001_initial.py" />
+    <Compile Include="measurement\migrations\0002_measurement_sensor_id_alter_measurement_id.py" />
+    <Compile Include="measurement\migrations\0003_remove_measurement_sensor_id_measurement_sensor_and_more.py" />
+    <Compile Include="measurement\migrations\0004_alter_measurement_sensor.py" />
     <Compile Include="measurement\migrations\__init__.py" />
     <Compile Include="measurement\models.py" />
     <Compile Include="measurement\serializers.py" />

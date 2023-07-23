@@ -13,8 +13,8 @@ POST {{baseUrl}}/sensors/
 Content-Type: application/json
 
 {
-  "name": "ESP34",
-  "description": "Датчик на кухне за холодильником"
+  "name": "ESP112",
+  "description": "Датчик 112"
 }
 
 ###
@@ -24,7 +24,7 @@ PATCH {{baseUrl}}/sensors/1/
 Content-Type: application/json
 
 {
-  "description": "Перенес датчик в туалет"
+  "description": "датчик 1"
 }
 
 ###
