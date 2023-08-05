@@ -1,7 +1,3 @@
-from django.shortcuts import render
-from rest_framework.decorators import api_view
-from rest_framework.response import Response
-from rest_framework.generics import ListAPIView, RetrieveAPIView
 from rest_framework.viewsets import ModelViewSet
 from .models import Sensor, Measurement
 from .serializers import SensorSerializer, SensorDetailSerializer, MeasurementSerializer

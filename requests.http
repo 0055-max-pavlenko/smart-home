@@ -13,8 +13,8 @@ POST {{baseUrl}}/sensors/
 Content-Type: application/json
 
 {
-  "name": "ESP112",
-  "description": "Датчик 112"
+  "name": "ESP111",
+  "description": "Датчик 111"
 }
 
 ###
@@ -41,5 +41,5 @@ Content-Type: application/json
 ###
 
 # получение информации по датчику
-GET {{baseUrl}}/sensors/3/
+GET {{baseUrl}}/sensors/1/
 Content-Type: application/json
